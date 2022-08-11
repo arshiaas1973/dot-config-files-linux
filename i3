@@ -1,0 +1,1 @@
+/home/scarywwolf/.config/i3-dot-files/config/i3

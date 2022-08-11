@@ -1,0 +1,166 @@
+17:00:06.394: CPU Name: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+17:00:06.394: CPU Speed: 2000.000MHz
+17:00:06.395: Physical Cores: 4, Logical Cores: 8
+17:00:06.395: Physical Memory: 7280MB Total, 170MB Free
+17:00:06.395: Kernel Version: Linux 5.18.16-arch1-1
+17:00:06.413: Distribution: "Arch Linux" Unknown
+17:00:06.413: Session Type: x11
+17:00:06.413: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:00:06.418: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+17:00:06.418: Portable mode: false
+17:00:06.537: OBS 27.2.4-browser-2 (linux)
+17:00:06.537: ---------------------------------
+17:00:06.538: ---------------------------------
+17:00:06.538: audio settings reset:
+17:00:06.538: 	samples per sec: 48000
+17:00:06.538: 	speakers:        2
+17:00:06.660: ---------------------------------
+17:00:06.660: Initializing OpenGL...
+17:00:13.836: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+17:00:13.836: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.1.4, shading language 4.60
+17:00:15.583: ---------------------------------
+17:00:15.584: video settings reset:
+17:00:15.584: 	base resolution:   1920x1080
+17:00:15.584: 	output resolution: 1920x1080
+17:00:15.584: 	downscale filter:  Bicubic
+17:00:15.584: 	fps:               30/1
+17:00:15.584: 	format:            NV12
+17:00:15.584: 	YUV mode:          709/Partial
+17:00:15.584: NV12 texture support not available
+17:00:15.618: Audio monitoring device:
+17:00:15.618: 	name: Default
+17:00:15.618: 	id: default
+17:00:15.619: ---------------------------------
+17:00:16.417: No AJA devices found, skipping loading AJA UI plugin
+17:00:16.417: Failed to initialize module 'aja-output-ui.so'
+17:00:17.621: No AJA devices found, skipping loading AJA plugin
+17:00:17.621: Failed to initialize module 'aja.so'
+17:00:17.626: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:00:17.677: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+17:00:25.524: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:00:25.524: No blackmagic support
+17:00:26.145: v4l2loopback not installed, virtual camera disabled
+17:00:26.213: [obs-browser]: Version 2.17.13
+17:00:26.213: [obs-browser]: CEF Version 95.0.0-MediaHandler.2463+g3b3ac84+chromium-95.0.4638.69
+17:00:26.585: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+17:00:26.585: 
+17:00:26.585: FFMPEG VAAPI supported
+17:00:26.920: [vlc-video]: VLC 3.0.17.4 Vetinari found, VLC video source enabled
+17:00:26.920: ---------------------------------
+17:00:26.920:   Loaded Modules:
+17:00:26.920:     vlc-video.so
+17:00:26.920:     text-freetype2.so
+17:00:26.920:     sndio.so
+17:00:26.920:     rtmp-services.so
+17:00:26.920:     obs-x264.so
+17:00:26.920:     obs-vst.so
+17:00:26.920:     obs-transitions.so
+17:00:26.920:     obs-outputs.so
+17:00:26.920:     obs-libfdk.so
+17:00:26.920:     obs-filters.so
+17:00:26.920:     obs-ffmpeg.so
+17:00:26.920:     obs-browser.so
+17:00:26.920:     linux-v4l2.so
+17:00:26.920:     linux-pulseaudio.so
+17:00:26.920:     linux-jack.so
+17:00:26.920:     linux-decklink.so
+17:00:26.920:     linux-capture.so
+17:00:26.920:     linux-alsa.so
+17:00:26.920:     image-source.so
+17:00:26.921:     frontend-tools.so
+17:00:26.921:     decklink-ouput-ui.so
+17:00:26.921:     decklink-captions.so
+17:00:26.921: ---------------------------------
+17:00:26.958: ==== Startup complete ===============================================
+17:00:27.066: All scene data cleared
+17:00:27.066: ------------------------------------------------
+17:00:27.080: pulse-input: Server name: 'pulseaudio 16.1'
+17:00:27.080: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+17:00:27.081: pulse-input: Started recording from 'alsa_output.usb-24ae_Rapoo_Gaming_Headset-00.analog-stereo.monitor'
+17:00:27.081: [Loaded global audio device]: 'Desktop Audio'
+17:00:27.166: pulse-input: Server name: 'pulseaudio 16.1'
+17:00:27.166: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+17:00:27.166: pulse-input: Started recording from 'alsa_input.usb-24ae_Rapoo_Gaming_Headset-00.mono-fallback'
+17:00:27.169: [Loaded global audio device]: 'Mic/Aux'
+17:00:27.169:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+17:00:27.169:     - filter: 'Gain' (gain_filter)
+17:00:27.169:     - filter: 'Noise Gate' (noise_gate_filter)
+17:00:27.169:     - filter: 'Limiter' (limiter_filter)
+17:00:27.170: xshm-input: Geometry 1920x1080 @ 0,0
+17:00:27.179: Switched to scene 'Scene'
+17:00:27.180: ------------------------------------------------
+17:00:27.180: Loaded scenes:
+17:00:27.180: - scene 'Scene':
+17:00:27.180:     - source: 'Screen Capture (XSHM)' (xshm_input)
+17:00:27.180: ------------------------------------------------
+17:00:27.721: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+17:00:27.721: 
+17:00:43.683: ---------------------------------
+17:00:44.051: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+17:00:44.051: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+17:00:44.051: 	rate_control: CQP
+17:00:44.051: 	profile:      578
+17:00:44.051: 	level:        40
+17:00:44.051: 	qp:           23
+17:00:44.051: 	bitrate:      0
+17:00:44.051: 	maxrate:      0
+17:00:44.051: 	keyint:       120
+17:00:44.051: 	width:        1920
+17:00:44.051: 	height:       1080
+17:00:44.051: 	b-frames:     0
+17:00:44.051: 
+17:00:44.482: libfdk_aac encoder created
+17:00:44.482: libfdk_aac bitrate: 160, channels: 2
+17:00:44.482: libfdk_aac encoder created
+17:00:44.482: libfdk_aac bitrate: 160, channels: 2
+17:00:44.482: libfdk_aac encoder created
+17:00:44.482: libfdk_aac bitrate: 160, channels: 2
+17:00:44.512: ==== Recording Start ===============================================
+17:00:44.512: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 17-00-43.mkv'...
+17:01:37.217: adding 42 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+17:01:37.217: 
+17:19:39.497: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 17-00-43.mkv' stopped
+17:19:39.508: Output 'adv_file_output': stopping
+17:19:39.508: Output 'adv_file_output': Total frames output: 34033
+17:19:39.508: Output 'adv_file_output': Total drawn frames: 34041 (34050 attempted)
+17:19:39.508: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 9 (0.0%)
+17:19:39.508: ==== Recording Stop ================================================
+17:19:39.526: Video stopped, number of skipped frames due to encoding lag: 9/34050 (0.0%)
+17:19:39.568: libfdk_aac encoder destroyed
+17:19:39.569: libfdk_aac encoder destroyed
+17:19:39.569: libfdk_aac encoder destroyed
+17:29:08.610: adding 256 milliseconds of audio buffering, total audio buffering is now 341 milliseconds (source: Mic/Aux)
+17:29:08.610: 
+17:36:28.162: ---------------------------------
+17:36:28.260: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+17:36:28.260: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+17:36:28.260: 	rate_control: CQP
+17:36:28.260: 	profile:      578
+17:36:28.260: 	level:        40
+17:36:28.260: 	qp:           23
+17:36:28.260: 	bitrate:      0
+17:36:28.260: 	maxrate:      0
+17:36:28.260: 	keyint:       120
+17:36:28.260: 	width:        1920
+17:36:28.260: 	height:       1080
+17:36:28.260: 	b-frames:     0
+17:36:28.260: 
+17:36:28.801: libfdk_aac encoder created
+17:36:28.801: libfdk_aac bitrate: 160, channels: 2
+17:36:28.801: libfdk_aac encoder created
+17:36:28.801: libfdk_aac bitrate: 160, channels: 2
+17:36:28.801: libfdk_aac encoder created
+17:36:28.801: libfdk_aac bitrate: 160, channels: 2
+17:36:28.804: ==== Recording Start ===============================================
+17:36:28.804: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 17-36-28.mkv'...
+17:50:04.536: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 17-36-28.mkv' stopped
+17:50:04.536: Output 'adv_file_output': stopping
+17:50:04.536: Output 'adv_file_output': Total frames output: 24454
+17:50:04.536: Output 'adv_file_output': Total drawn frames: 24472
+17:50:04.536: Video stopped, number of skipped frames due to encoding lag: 18/24471 (0.1%)
+17:50:04.536: ==== Recording Stop ================================================
+17:50:04.542: libfdk_aac encoder destroyed
+17:50:04.542: libfdk_aac encoder destroyed
+17:50:04.542: libfdk_aac encoder destroyed
+18:15:57.709: adding 64 milliseconds of audio buffering, total audio buffering is now 405 milliseconds (source: Mic/Aux)
+18:15:57.709: 

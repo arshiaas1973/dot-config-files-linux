@@ -1,0 +1,156 @@
+11:46:16.979: CPU Name: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+11:46:16.979: CPU Speed: 2000.000MHz
+11:46:16.980: Physical Cores: 4, Logical Cores: 8
+11:46:16.980: Physical Memory: 7280MB Total, 6541MB Free
+11:46:16.980: Kernel Version: Linux 5.18.15-arch1-1
+11:46:16.980: Distribution: "Arch Linux" Unknown
+11:46:16.980: Session Type: x11
+11:46:16.981: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+11:46:16.984: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+11:46:16.984: Portable mode: false
+11:46:17.141: OBS 27.2.4-2 (linux)
+11:46:17.141: ---------------------------------
+11:46:17.142: ---------------------------------
+11:46:17.142: audio settings reset:
+11:46:17.142: 	samples per sec: 48000
+11:46:17.142: 	speakers:        2
+11:46:17.197: ---------------------------------
+11:46:17.197: Initializing OpenGL...
+11:46:17.303: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+11:46:17.303: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.1.4, shading language 4.60
+11:46:17.728: ---------------------------------
+11:46:17.728: video settings reset:
+11:46:17.728: 	base resolution:   1920x1080
+11:46:17.728: 	output resolution: 1920x1080
+11:46:17.728: 	downscale filter:  Bicubic
+11:46:17.728: 	fps:               30/1
+11:46:17.728: 	format:            NV12
+11:46:17.728: 	YUV mode:          709/Partial
+11:46:17.728: NV12 texture support not available
+11:46:17.887: Audio monitoring device:
+11:46:17.887: 	name: Default
+11:46:17.887: 	id: default
+11:46:17.888: ---------------------------------
+11:46:17.910: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:46:17.917: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+11:46:17.946: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+11:46:17.946: 
+11:46:17.946: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+11:46:18.004: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:46:18.004: No blackmagic support
+11:46:18.142: v4l2loopback not installed, virtual camera disabled
+11:46:18.663: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:46:18.663: 
+11:46:18.663: FFMPEG VAAPI supported
+11:46:18.924: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v3/package.json" failed: Could not resolve host: obsproject.com
+11:46:18.934: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+11:46:18.934: 
+11:46:18.934: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+11:46:18.939: ---------------------------------
+11:46:18.939:   Loaded Modules:
+11:46:18.939:     text-freetype2.so
+11:46:18.939:     rtmp-services.so
+11:46:18.939:     obs-x264.so
+11:46:18.939:     obs-transitions.so
+11:46:18.939:     obs-outputs.so
+11:46:18.939:     obs-libfdk.so
+11:46:18.939:     obs-filters.so
+11:46:18.939:     obs-ffmpeg.so
+11:46:18.939:     linux-v4l2.so
+11:46:18.939:     linux-pulseaudio.so
+11:46:18.939:     linux-jack.so
+11:46:18.939:     linux-decklink.so
+11:46:18.939:     linux-capture.so
+11:46:18.939:     linux-alsa.so
+11:46:18.939:     image-source.so
+11:46:18.939:     decklink-ouput-ui.so
+11:46:18.939:     decklink-captions.so
+11:46:18.939: ---------------------------------
+11:46:18.939: ==== Startup complete ===============================================
+11:46:19.056: All scene data cleared
+11:46:19.056: ------------------------------------------------
+11:46:21.277: pulse-input: Server name: 'pulseaudio 16.1'
+11:46:21.278: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:46:21.278: pulse-input: Started recording from 'alsa_output.usb-24ae_Rapoo_Gaming_Headset-00.analog-stereo.monitor'
+11:46:21.278: [Loaded global audio device]: 'Desktop Audio'
+11:46:21.280: pulse-input: Server name: 'pulseaudio 16.1'
+11:46:21.281: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+11:46:21.281: pulse-input: Started recording from 'alsa_input.usb-24ae_Rapoo_Gaming_Headset-00.mono-fallback'
+11:46:21.281: [Loaded global audio device]: 'Mic/Aux'
+11:46:21.284: xshm-input: Geometry 1920x1080 @ 0,0
+11:46:21.307: Switched to scene 'Scene'
+11:46:21.307: ------------------------------------------------
+11:46:21.307: Loaded scenes:
+11:46:21.308: - scene 'Scene':
+11:46:21.308:     - source: 'Screen Capture (XSHM)' (xshm_input)
+11:46:21.308: ------------------------------------------------
+11:46:21.861: adding 85 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+11:46:21.861: 
+11:47:04.692: User Removed source 'Screen Capture (XSHM)' (xshm_input) from scene 'Scene'
+11:47:15.797: xshm-input: Geometry 1920x1080 @ 0,0
+11:47:15.824: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+11:47:31.568: Settings changed (outputs)
+11:47:31.568: ------------------------------------------------
+11:47:33.562: ---------------------------------
+11:47:33.562: [AV1 encoder: 'recording_h264'] settings:
+11:47:33.562: 	encoder:      SVT-AV1
+11:47:33.562: 	rate_control: CBR
+11:47:33.562: 	bitrate:      2500
+11:47:33.562: 	cqp:          0
+11:47:33.562: 	keyint:       -1
+11:47:33.562: 	preset:       8
+11:47:33.562: 	width:        1920
+11:47:33.562: 	height:       1080
+11:47:33.562: 	ffmpeg opts:  
+11:47:33.562: 
+11:47:35.308: libfdk_aac encoder created
+11:47:35.308: libfdk_aac bitrate: 160, channels: 2
+11:47:35.308: libfdk_aac encoder created
+11:47:35.308: libfdk_aac bitrate: 160, channels: 2
+11:47:35.309: libfdk_aac encoder created
+11:47:35.309: libfdk_aac bitrate: 160, channels: 2
+11:47:35.332: ==== Recording Start ===============================================
+11:47:35.332: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-02 11-47-33.mkv'...
+11:47:41.069: [AV1 encoder: 'recording_h264'] Encoding queue duration surpassed 5 seconds, terminating encoder
+11:47:41.069: Error encoding with encoder 'recording_h264'
+11:47:41.442: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-02 11-47-33.mkv' stopped
+11:47:41.442: Output 'adv_file_output': stopping
+11:47:41.442: Output 'adv_file_output': Total frames output: 12
+11:47:41.443: Output 'adv_file_output': Total drawn frames: 179 (183 attempted)
+11:47:41.443: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4 (2.2%)
+11:47:41.445: ==== Recording Stop ================================================
+11:47:41.464: Video stopped, number of skipped frames due to encoding lag: 15/74 (20.3%)
+11:47:43.883: libfdk_aac encoder destroyed
+11:47:43.883: libfdk_aac encoder destroyed
+11:47:43.883: libfdk_aac encoder destroyed
+11:47:54.784: Settings changed (outputs)
+11:47:54.785: ------------------------------------------------
+11:47:58.471: ---------------------------------
+11:47:58.471: [AV1 encoder: 'recording_h264'] settings:
+11:47:58.471: 	encoder:      AOM AV1
+11:47:58.471: 	rate_control: CBR
+11:47:58.471: 	bitrate:      2500
+11:47:58.471: 	cqp:          0
+11:47:58.471: 	keyint:       -1
+11:47:58.471: 	preset:       8
+11:47:58.471: 	width:        1920
+11:47:58.471: 	height:       1080
+11:47:58.471: 	ffmpeg opts:  
+11:47:58.471: 
+11:47:58.568: libfdk_aac encoder created
+11:47:58.568: libfdk_aac bitrate: 160, channels: 2
+11:47:58.568: libfdk_aac encoder created
+11:47:58.568: libfdk_aac bitrate: 160, channels: 2
+11:47:58.568: libfdk_aac encoder created
+11:47:58.568: libfdk_aac bitrate: 160, channels: 2
+11:47:58.574: ==== Recording Start ===============================================
+11:47:58.574: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-02 11-47-58.mkv'...
+11:49:01.760: output adv_file_output paused
+11:49:02.918: output adv_file_output unpaused
+11:52:18.466: ==== Shutting down ==================================================
+11:52:18.487: pulse-input: Stopped recording from 'alsa_output.usb-24ae_Rapoo_Gaming_Headset-00.analog-stereo.monitor'
+11:52:18.487: pulse-input: Got 70217 packets with 15685929 frames
+11:52:18.487: pulse-input: Stopped recording from 'alsa_input.usb-24ae_Rapoo_Gaming_Headset-00.mono-fallback'
+11:52:18.487: pulse-input: Got 35513 packets with 15769743 frames
+11:52:18.521: All scene data cleared
+11:52:18.521: ------------------------------------------------

@@ -1,0 +1,325 @@
+09:20:35.799: CPU Name: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+09:20:35.799: CPU Speed: 2000.000MHz
+09:20:35.800: Physical Cores: 4, Logical Cores: 8
+09:20:35.800: Physical Memory: 7280MB Total, 6462MB Free
+09:20:35.800: Kernel Version: Linux 5.18.16-arch1-1
+09:20:35.801: Distribution: "Arch Linux" Unknown
+09:20:35.801: Session Type: x11
+09:20:35.801: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+09:20:35.844: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+09:20:35.844: Portable mode: false
+09:20:36.060: OBS 27.2.4-browser-2 (linux)
+09:20:36.060: ---------------------------------
+09:20:36.155: ---------------------------------
+09:20:36.156: audio settings reset:
+09:20:36.156: 	samples per sec: 48000
+09:20:36.156: 	speakers:        2
+09:20:36.224: ---------------------------------
+09:20:36.224: Initializing OpenGL...
+09:20:36.308: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+09:20:36.308: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.1.4, shading language 4.60
+09:20:36.648: ---------------------------------
+09:20:36.648: video settings reset:
+09:20:36.648: 	base resolution:   1920x1080
+09:20:36.648: 	output resolution: 1920x1080
+09:20:36.648: 	downscale filter:  Bicubic
+09:20:36.648: 	fps:               30/1
+09:20:36.648: 	format:            NV12
+09:20:36.648: 	YUV mode:          709/Partial
+09:20:36.649: NV12 texture support not available
+09:20:36.918: Audio monitoring device:
+09:20:36.918: 	name: Default
+09:20:36.918: 	id: default
+09:20:36.919: ---------------------------------
+09:20:37.099: No AJA devices found, skipping loading AJA UI plugin
+09:20:37.099: Failed to initialize module 'aja-output-ui.so'
+09:20:37.249: No AJA devices found, skipping loading AJA plugin
+09:20:37.249: Failed to initialize module 'aja.so'
+09:20:37.258: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:20:37.268: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:20:38.316: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:20:38.316: No blackmagic support
+09:20:38.457: v4l2loopback not installed, virtual camera disabled
+09:20:38.466: [obs-browser]: Version 2.17.13
+09:20:38.466: [obs-browser]: CEF Version 95.0.0-MediaHandler.2463+g3b3ac84+chromium-95.0.4638.69
+09:20:38.816: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+09:20:38.816: 
+09:20:38.816: FFMPEG VAAPI supported
+09:20:39.131: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v3/package.json" failed: Could not resolve host: obsproject.com
+09:20:39.333: [vlc-video]: VLC 3.0.17.4 Vetinari found, VLC video source enabled
+09:20:39.333: ---------------------------------
+09:20:39.333:   Loaded Modules:
+09:20:39.333:     vlc-video.so
+09:20:39.333:     text-freetype2.so
+09:20:39.333:     sndio.so
+09:20:39.333:     rtmp-services.so
+09:20:39.333:     obs-x264.so
+09:20:39.334:     obs-vst.so
+09:20:39.334:     obs-transitions.so
+09:20:39.334:     obs-outputs.so
+09:20:39.334:     obs-libfdk.so
+09:20:39.334:     obs-filters.so
+09:20:39.334:     obs-ffmpeg.so
+09:20:39.334:     obs-browser.so
+09:20:39.334:     linux-v4l2.so
+09:20:39.334:     linux-pulseaudio.so
+09:20:39.334:     linux-jack.so
+09:20:39.334:     linux-decklink.so
+09:20:39.334:     linux-capture.so
+09:20:39.334:     linux-alsa.so
+09:20:39.334:     image-source.so
+09:20:39.334:     frontend-tools.so
+09:20:39.334:     decklink-ouput-ui.so
+09:20:39.334:     decklink-captions.so
+09:20:39.334: ---------------------------------
+09:20:39.372: ==== Startup complete ===============================================
+09:20:39.580: All scene data cleared
+09:20:39.580: ------------------------------------------------
+09:20:39.595: pulse-input: Server name: 'pulseaudio 16.1'
+09:20:39.596: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:20:39.596: pulse-input: Started recording from 'alsa_output.usb-24ae_Rapoo_Gaming_Headset-00.analog-stereo.monitor'
+09:20:39.596: [Loaded global audio device]: 'Desktop Audio'
+09:20:39.601: pulse-input: Server name: 'pulseaudio 16.1'
+09:20:39.602: pulse-input: Audio format: s16le, 44100 Hz, 1 channels
+09:20:39.602: pulse-input: Started recording from 'alsa_input.usb-24ae_Rapoo_Gaming_Headset-00.mono-fallback'
+09:20:39.604: [Loaded global audio device]: 'Mic/Aux'
+09:20:39.604:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+09:20:39.604:     - filter: 'Gain' (gain_filter)
+09:20:39.604:     - filter: 'Noise Gate' (noise_gate_filter)
+09:20:39.604:     - filter: 'Limiter' (limiter_filter)
+09:20:39.635: xshm-input: Geometry 1920x1080 @ 0,0
+09:20:39.660: Switched to scene 'Scene'
+09:20:39.661: ------------------------------------------------
+09:20:39.661: Loaded scenes:
+09:20:39.661: - scene 'Scene':
+09:20:39.795:     - source: 'Screen Capture (XSHM)' (xshm_input)
+09:20:39.795: ------------------------------------------------
+09:20:40.172: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+09:20:40.172: 
+09:21:53.406: ---------------------------------
+09:21:53.406: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+09:21:53.406: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+09:21:53.406: 	rate_control: CQP
+09:21:53.406: 	profile:      578
+09:21:53.406: 	level:        40
+09:21:53.406: 	qp:           23
+09:21:53.406: 	bitrate:      0
+09:21:53.406: 	maxrate:      0
+09:21:53.406: 	keyint:       120
+09:21:53.406: 	width:        1920
+09:21:53.406: 	height:       1080
+09:21:53.406: 	b-frames:     0
+09:21:53.406: 
+09:21:53.925: libfdk_aac encoder created
+09:21:53.925: libfdk_aac bitrate: 160, channels: 2
+09:21:53.926: libfdk_aac encoder created
+09:21:53.926: libfdk_aac bitrate: 160, channels: 2
+09:21:53.926: libfdk_aac encoder created
+09:21:53.926: libfdk_aac bitrate: 160, channels: 2
+09:21:53.939: ==== Recording Start ===============================================
+09:21:53.939: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 09-21-52.mkv'...
+09:28:41.355: Stopping recording due to hotkey
+09:28:41.823: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 09-21-52.mkv' stopped
+09:28:41.823: Output 'adv_file_output': stopping
+09:28:41.823: Output 'adv_file_output': Total frames output: 12223
+09:28:41.823: Output 'adv_file_output': Total drawn frames: 12233 (12236 attempted)
+09:28:41.823: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0.0%)
+09:28:41.824: ==== Recording Stop ================================================
+09:28:41.830: libfdk_aac encoder destroyed
+09:28:41.830: libfdk_aac encoder destroyed
+09:28:41.830: libfdk_aac encoder destroyed
+09:29:15.982: Starting recording due to hotkey
+09:29:15.991: ---------------------------------
+09:29:15.991: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+09:29:15.991: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+09:29:15.991: 	rate_control: CQP
+09:29:15.991: 	profile:      578
+09:29:15.991: 	level:        40
+09:29:15.991: 	qp:           23
+09:29:15.991: 	bitrate:      0
+09:29:15.991: 	maxrate:      0
+09:29:15.991: 	keyint:       120
+09:29:15.991: 	width:        1920
+09:29:15.991: 	height:       1080
+09:29:15.991: 	b-frames:     0
+09:29:15.991: 
+09:29:15.996: libfdk_aac encoder created
+09:29:15.996: libfdk_aac bitrate: 160, channels: 2
+09:29:15.997: libfdk_aac encoder created
+09:29:15.997: libfdk_aac bitrate: 160, channels: 2
+09:29:15.997: libfdk_aac encoder created
+09:29:15.997: libfdk_aac bitrate: 160, channels: 2
+09:29:16.001: ==== Recording Start ===============================================
+09:29:16.002: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 09-29-15.mkv'...
+09:39:57.409: Stopping recording due to hotkey
+09:39:57.620: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 09-29-15.mkv' stopped
+09:39:57.620: Output 'adv_file_output': stopping
+09:39:57.620: Output 'adv_file_output': Total frames output: 19243
+09:39:57.620: Output 'adv_file_output': Total drawn frames: 19208 (19249 attempted)
+09:39:57.620: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 41 (0.2%)
+09:39:57.621: ==== Recording Stop ================================================
+09:39:57.626: libfdk_aac encoder destroyed
+09:39:57.627: libfdk_aac encoder destroyed
+09:39:57.627: libfdk_aac encoder destroyed
+09:45:10.575: ---------------------------------
+09:45:10.576: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+09:45:10.576: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+09:45:10.576: 	rate_control: CQP
+09:45:10.576: 	profile:      578
+09:45:10.576: 	level:        40
+09:45:10.576: 	qp:           23
+09:45:10.576: 	bitrate:      0
+09:45:10.576: 	maxrate:      0
+09:45:10.576: 	keyint:       120
+09:45:10.576: 	width:        1920
+09:45:10.576: 	height:       1080
+09:45:10.576: 	b-frames:     0
+09:45:10.576: 
+09:45:10.582: libfdk_aac encoder created
+09:45:10.582: libfdk_aac bitrate: 160, channels: 2
+09:45:10.582: libfdk_aac encoder created
+09:45:10.582: libfdk_aac bitrate: 160, channels: 2
+09:45:10.582: libfdk_aac encoder created
+09:45:10.582: libfdk_aac bitrate: 160, channels: 2
+09:45:10.588: ==== Recording Start ===============================================
+09:45:10.588: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 09-45-10.mkv'...
+09:49:12.250: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 09-45-10.mkv' stopped
+09:49:12.250: Output 'adv_file_output': stopping
+09:49:12.250: Output 'adv_file_output': Total frames output: 7246
+09:49:12.251: Output 'adv_file_output': Total drawn frames: 7250
+09:49:12.251: ==== Recording Stop ================================================
+09:49:12.264: libfdk_aac encoder destroyed
+09:49:12.264: libfdk_aac encoder destroyed
+09:49:12.264: libfdk_aac encoder destroyed
+09:54:42.458: ---------------------------------
+09:54:42.459: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+09:54:42.459: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+09:54:42.459: 	rate_control: CQP
+09:54:42.459: 	profile:      578
+09:54:42.459: 	level:        40
+09:54:42.459: 	qp:           23
+09:54:42.459: 	bitrate:      0
+09:54:42.459: 	maxrate:      0
+09:54:42.459: 	keyint:       120
+09:54:42.459: 	width:        1920
+09:54:42.459: 	height:       1080
+09:54:42.459: 	b-frames:     0
+09:54:42.459: 
+09:54:42.467: libfdk_aac encoder created
+09:54:42.467: libfdk_aac bitrate: 160, channels: 2
+09:54:42.468: libfdk_aac encoder created
+09:54:42.468: libfdk_aac bitrate: 160, channels: 2
+09:54:42.468: libfdk_aac encoder created
+09:54:42.468: libfdk_aac bitrate: 160, channels: 2
+09:54:42.475: ==== Recording Start ===============================================
+09:54:42.475: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 09-54-42.mkv'...
+10:14:42.400: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 09-54-42.mkv' stopped
+10:14:42.400: Output 'adv_file_output': stopping
+10:14:42.400: Output 'adv_file_output': Total frames output: 35989
+10:14:42.400: Output 'adv_file_output': Total drawn frames: 35690 (35997 attempted)
+10:14:42.400: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 307 (0.9%)
+10:14:42.402: ==== Recording Stop ================================================
+10:14:42.422: Video stopped, number of skipped frames due to encoding lag: 4/35997 (0.0%)
+10:14:42.464: libfdk_aac encoder destroyed
+10:14:42.464: libfdk_aac encoder destroyed
+10:14:42.464: libfdk_aac encoder destroyed
+10:56:26.351: ---------------------------------
+10:56:26.370: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+10:56:26.370: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+10:56:26.370: 	rate_control: CQP
+10:56:26.370: 	profile:      578
+10:56:26.370: 	level:        40
+10:56:26.370: 	qp:           23
+10:56:26.370: 	bitrate:      0
+10:56:26.370: 	maxrate:      0
+10:56:26.370: 	keyint:       120
+10:56:26.370: 	width:        1920
+10:56:26.370: 	height:       1080
+10:56:26.370: 	b-frames:     0
+10:56:26.370: 
+10:56:26.460: libfdk_aac encoder created
+10:56:26.460: libfdk_aac bitrate: 160, channels: 2
+10:56:26.460: libfdk_aac encoder created
+10:56:26.460: libfdk_aac bitrate: 160, channels: 2
+10:56:26.460: libfdk_aac encoder created
+10:56:26.460: libfdk_aac bitrate: 160, channels: 2
+10:56:26.462: ==== Recording Start ===============================================
+10:56:26.462: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 10-56-26.mkv'...
+11:13:09.977: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 10-56-26.mkv' stopped
+11:13:09.977: Output 'adv_file_output': stopping
+11:13:09.977: Output 'adv_file_output': Total frames output: 30082
+11:13:09.977: Output 'adv_file_output': Total drawn frames: 30106
+11:13:09.977: ==== Recording Stop ================================================
+11:13:10.016: Video stopped, number of skipped frames due to encoding lag: 17/30105 (0.1%)
+11:13:10.025: libfdk_aac encoder destroyed
+11:13:10.025: libfdk_aac encoder destroyed
+11:13:10.025: libfdk_aac encoder destroyed
+11:17:10.322: ---------------------------------
+11:17:10.415: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+11:17:10.415: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+11:17:10.415: 	rate_control: CQP
+11:17:10.415: 	profile:      578
+11:17:10.415: 	level:        40
+11:17:10.415: 	qp:           23
+11:17:10.415: 	bitrate:      0
+11:17:10.415: 	maxrate:      0
+11:17:10.415: 	keyint:       120
+11:17:10.415: 	width:        1920
+11:17:10.415: 	height:       1080
+11:17:10.415: 	b-frames:     0
+11:17:10.415: 
+11:17:12.762: libfdk_aac encoder created
+11:17:12.762: libfdk_aac bitrate: 160, channels: 2
+11:17:12.762: libfdk_aac encoder created
+11:17:12.762: libfdk_aac bitrate: 160, channels: 2
+11:17:12.762: libfdk_aac encoder created
+11:17:12.762: libfdk_aac bitrate: 160, channels: 2
+11:17:12.764: ==== Recording Start ===============================================
+11:17:12.764: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 11-17-10.mkv'...
+11:26:56.554: adding 42 milliseconds of audio buffering, total audio buffering is now 106 milliseconds (source: Mic/Aux)
+11:26:56.554: 
+11:36:46.778: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 11-17-10.mkv' stopped
+11:36:46.778: Output 'adv_file_output': stopping
+11:36:46.778: Output 'adv_file_output': Total frames output: 35203
+11:36:46.778: Output 'adv_file_output': Total drawn frames: 35217 (35221 attempted)
+11:36:46.779: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.0%)
+11:36:46.779: Video stopped, number of skipped frames due to encoding lag: 12/35216 (0.0%)
+11:36:46.779: Video stopped, number of skipped frames due to encoding lag: 12/35216 (0.0%)
+11:36:46.779: ==== Recording Stop ================================================
+11:36:46.789: libfdk_aac encoder destroyed
+11:36:46.789: libfdk_aac encoder destroyed
+11:36:46.789: libfdk_aac encoder destroyed
+11:37:02.570: ---------------------------------
+11:37:02.570: [FFMPEG VAAPI encoder: 'recording_h264'] settings:
+11:37:02.570: 	device:       /dev/dri/by-path/pci-0000:00:02.0-render
+11:37:02.570: 	rate_control: CQP
+11:37:02.570: 	profile:      578
+11:37:02.570: 	level:        40
+11:37:02.570: 	qp:           23
+11:37:02.570: 	bitrate:      0
+11:37:02.570: 	maxrate:      0
+11:37:02.570: 	keyint:       120
+11:37:02.570: 	width:        1920
+11:37:02.570: 	height:       1080
+11:37:02.570: 	b-frames:     0
+11:37:02.570: 
+11:37:02.650: libfdk_aac encoder created
+11:37:02.650: libfdk_aac bitrate: 160, channels: 2
+11:37:02.650: libfdk_aac encoder created
+11:37:02.650: libfdk_aac bitrate: 160, channels: 2
+11:37:02.650: libfdk_aac encoder created
+11:37:02.650: libfdk_aac bitrate: 160, channels: 2
+11:37:02.652: ==== Recording Start ===============================================
+11:37:02.652: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/scarywwolf/Videos/2022-08-06 11-37-02.mkv'...
+11:40:19.635: Stopping recording due to hotkey
+11:40:20.089: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/scarywwolf/Videos/2022-08-06 11-37-02.mkv' stopped
+11:40:20.089: Output 'adv_file_output': stopping
+11:40:20.089: Output 'adv_file_output': Total frames output: 5910
+11:40:20.089: Output 'adv_file_output': Total drawn frames: 5923
+11:40:20.090: ==== Recording Stop ================================================
+11:40:20.090: Video stopped, number of skipped frames due to encoding lag: 13/5922 (0.2%)
+11:40:20.101: libfdk_aac encoder destroyed
+11:40:20.101: libfdk_aac encoder destroyed
+11:40:20.101: libfdk_aac encoder destroyed
+11:40:54.303: adding 64 milliseconds of audio buffering, total audio buffering is now 170 milliseconds (source: Mic/Aux)
+11:40:54.303: 
