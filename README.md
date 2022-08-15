@@ -1,1 +1,2 @@
-# dot-config-files-linux
+# config file -> my i3 config
+#             is
